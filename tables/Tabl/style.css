@@ -1,0 +1,89 @@
+table 
+    {
+      
+        border-collapse: collapse; 
+        vertical-align: center;
+        text-align: center;
+        margin-left: 20px;
+        
+    }
+
+     .thead td  {
+        
+        border-collapse: collapse; 
+        vertical-align: center;
+        text-align: center;
+        color: rgb(2, 2, 2);
+        padding: 5px;
+        font-size: 13px;
+        }
+    
+    thead td {
+      color: white;
+    }
+
+    .price  {
+      font-size: 20px;
+      align-items: center;
+      
+      
+    } 
+
+      p {
+        
+        margin-top: -3px;
+        margin-bottom: -3px;
+        line-height: 0.3em;
+        
+    color: white;
+        padding: 10px;
+     }
+    h3  { 
+        font-size: 13px;
+        color: white;
+      
+          
+       }
+    
+    tbody td {
+      font-size: 13px;
+    }
+
+    tbody button {
+        border-radius: 0;
+        border:  rgb(141, 141, 141);
+        background: rgb(210, 211, 212);
+       padding: 6px 15px 6px 15px;
+       font-size: 11px;
+      }
+   
+  thead td:nth-child(1) {
+    background: rgb(121, 135, 172);
+  }
+
+  thead td:nth-child(2) {
+    background: rgb(79, 98, 141);
+  }
+
+  thead td:nth-child(3) {
+    background: rgb(47, 65, 115);
+  }
+
+  thead td:nth-child(4) {
+    background: rgb(22, 41, 84);
+  }
+
+  thead td:nth-child(5) {
+    background: rgb(7, 21, 58);
+  }
+  
+
+  tbody tr:nth-child(odd) {
+  background: rgb(219, 219, 219);
+}
+  tbody tr:nth-child(even) {
+    background: rgb(236, 236, 236);
+  }
+  tbody tr:nth-child(even) {
+    background: rgb(236, 236, 236);
+  }
