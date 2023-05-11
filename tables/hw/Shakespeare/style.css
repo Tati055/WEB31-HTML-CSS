@@ -1,0 +1,90 @@
+tr {
+    color: white;
+    
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    table {
+        display: block;
+        position: sticky;
+        margin-left: 500px;
+        background-color: rgb(162, 54, 69);
+        width: 950px;
+        word-spacing: 0;
+        border-style: none;
+        border-spacing: 5px;  
+        padding-left: 80px;
+       
+        }
+    .container {
+        display: block;
+        position: static;
+        margin-left: 30%;
+        word-spacing: 0;
+        border-style: none;
+        border-spacing: 5px;
+        margin-top: 1%;
+        width: 600px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        }
+    p {
+           
+  width: 530px;
+    }
+    img {
+        display: flex;
+        position: sticky;
+    float: left; 
+    width: 10%;  
+    height: 25%; 
+    margin-left: 60%;
+    margin-top: 3%;
+    }
+ .block {
+    display: flex;
+    position: sticky;
+    text-align: right;
+    height: 50px;
+    font-size: 12px;
+    margin-left: 41%;
+    margin-top: 15%;
+    align: center;
+    
+}
+
+.block1 {
+    display: block;
+border-color: rgb(175, 173, 173);  
+border-style: solid;
+width: 720px;
+height: 200px;
+}
+.element {
+    display: grid;
+    position: sticky;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-area: inherit;
+}
+
+
+.body {
+    
+    
+    height: 800px; 
+    overflow-y: scroll;
+}
+.button {
+    float: left;
+    border: 1px solid rgb(145, 47, 60);
+    background-color: rgb(145, 47, 60);
+    color: white;
+    width: 5%;
+    height: 25px;
+    border-style: none;
+    
+  }
