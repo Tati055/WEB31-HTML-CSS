@@ -1,0 +1,90 @@
+.block1 {
+display: block;  
+width: 20%;
+height: 50%;
+float: left;
+background-color:#ffffff; 
+border-radius: 10px;
+border-bottom: solid black; 
+border-top-style: solid;
+border-right-style: solid;
+border-left-style: solid;
+text-align: center; 
+transition:  all 1s ease;
+}
+
+.knopka1 {
+color: #fff;  
+background: rgb(206, 49, 127); 
+padding: 1em 1.5em; 
+margin: 40px 80px;
+} 
+
+.block2 {
+display: block;  
+width: 20%;
+height: 50%;
+float: left;
+background-color:#ffffff; 
+border-radius: 10px;
+border-bottom: solid black; 
+border-top-style: solid;
+border-right-style: solid;
+border-left-style: solid;
+text-align: center;
+transition:  all 1s ease; 
+}
+
+.knopka2 {
+color: #fff;  
+background: rgb(219, 181, 56); 
+padding: 1em 1.5em;
+margin: 40px 80px;
+} 
+
+.block3 {
+display: block;  
+width: 20%;
+height: 50%;
+float: left;
+background-color:#ffffff; 
+border-radius: 10px;
+border-bottom: solid black; 
+border-top-style: solid;
+border-right-style: solid;
+border-left-style: solid;
+text-align: center;
+transition:  all 1s ease; 
+}
+
+.knopka3 {
+color: #fff;  
+background: rgb(69, 136, 212); 
+padding: 1em 1.5em; 
+margin: 40px 80px;
+}
+
+.block4 {
+display: block;  
+width: 20%;
+height: 50%;
+float: left;
+background-color:#ffffff; 
+border-radius: 10px;
+border-bottom: solid black; 
+border-top-style: solid;
+border-right-style: solid;
+border-left-style: solid;
+text-align: center;
+transition:  all 1s ease; 
+}
+
+.knopka4 {
+color: #fff;  
+background: rgb(86, 206, 49); 
+padding: 1em 1.5em; 
+margin: 40px 80px;
+} 
+.block1:hover, .block2:hover, .block3:hover,.block4:hover {
+transform: translateY(50px) scale(1.2);
+}
