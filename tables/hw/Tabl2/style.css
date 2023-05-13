@@ -25,14 +25,14 @@ tbody,tr:nth-child(odd) {
 
 table {
     display: block;
-    height: 230px; 
-    overflow-y: scroll;
-   } 
-    
-   table {
-    display: block;
-    width: 280px; 
-    overflow-x: scroll;
-   } 
+    height: 230px;
+    width: 200px; 
+    overflow: scroll;
+} 
+
+col {
+    position: sticky;
+    left: 0;
+}
    
    
